@@ -1,4 +1,3 @@
-
 const productDetail = [
   {
     name: "Spicy Dragonfruit",
@@ -53,7 +52,6 @@ const productDetail = [
 ];
 let productId = window.location.href.split("?");
 productId = productId[1];
-console.log(productId)
 const  addInText = productDetail[productId].addIn;
 const noAddInText = productDetail[productId].noAddIn;
 const textAddIn = document.querySelector("#addInText");

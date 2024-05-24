@@ -1,6 +1,6 @@
 const createFooter = (maxWidth, dropdown) => {
     return `
-    <footer class="p-6 2xl:px-8 w-full ${maxWidth ? maxWidth : ''} mx-auto">
+    <footer class="p-6  w-full ${maxWidth ?  `${maxWidth} 2xl:px-0` : '2xl:px-8'} mx-auto">
         <!-- screen phone lg -->
         <div class="block ${dropdown ? 'block' : 'lg:hidden'}">
             <div>

@@ -26,25 +26,13 @@ const createCardCategory = (imgArr)=>{
         </div>`;
    
 }
-
-// class createCardCategoryComponent extends HTMLElement {
-// 	connectedCallback() {
-// 		const imgArr = this.getAttribute('imgArr');
-// 		// Parse the imgUrl attribute as an array
-
-// 		this.innerHTML = createCarousel(imgArr);
-// 	}
-// }
-
-// customElements.define('gift-card-category-component', createCardCategoryComponent);
-
 const giftCardCategory = document.querySelector("#giftCardCategory")
 
 let html = ""
 imgArr[cardCategory].forEach(item => {
     html +=`
     <div class="rounded-lg md:rounded-2xl overflow-hidden shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:-translate-y-4 duration-500">
-            <a href="../../pages/gift-card/gift-card-detail.html?${item}" class="w-full">
+            <a href="../../pages/gift-card-detail/gift-card-detail.html?${item}" class="w-full">
                 <img src="${item}" class="object-cover w-full h-full">
             </a>
         </div>`

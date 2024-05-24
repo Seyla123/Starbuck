@@ -1,5 +1,5 @@
 // Importing the layout component from the components directory
-import * as Layout from "../../script/components/layout.js"
+import * as Layout from "../../components/layout.js"
 
 // Define an array of product objects, each containing details for display on the home page
 const product = [{
